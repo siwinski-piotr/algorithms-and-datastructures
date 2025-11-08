@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30787c34-2a39-4012-93f0-a9bb5187aa97" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/arrays/src/main/java/LongestCommonPrefix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/arrays/src/test/java/LongestCommonPrefixTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/trees/src/main/java/InvertBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/trees/src/main/java/TreeEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/trees/src/main/java/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/trees/src/test/java/InvertBinaryTreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
@@ -27,6 +30,9 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/src">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -39,18 +45,6 @@
                 <item name="Algorithms-and-data-structures" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Algorithms-and-data-structures" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Algorithms-and-data-structures" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="verification" type="c8890929:TasksNode$1" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -61,8 +55,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -75,12 +69,12 @@
     &quot;assignee&quot;: &quot;siwinski-piotr&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;git@github.com:siwinski-piotr/algorithms-and-datastructures.git&quot;,
-    &quot;accountId&quot;: &quot;dc3c7969-c777-4af0-9088-7b00351c0b22&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/siwinski-piotr/algorithms-and-datastructures.git",
+    "accountId": "b20f312b-1f57-41db-aeb2-aee1d1316b20"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -92,6 +86,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.InvertBinaryTreeTest.t1.executor": "Debug",
     "Gradle.LongestCommonPrefixTest.executor": "Run",
     "Gradle.LongestCommonPrefixTest.t1.executor": "Debug",
     "Gradle.ProductOfThreeNumbersTest.executor": "Run",
@@ -108,8 +103,11 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/Piotrek/IdeaProjects/algorithms-and-datastructures/src/main/arrays/src/main/java/pl/siwinski/piotr/Main.java",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "onboarding.tips.debug.path": "C:/Users/Piotr Siwiński/IdeaProjects/algorithms-and-datastructures/src/main/trees/src/main/java/pl/siwinski/piotr/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -123,7 +121,55 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LongestCommonPrefixTest">
+  <component name="RunManager" selected="Gradle.InvertBinaryTreeTest.shouldInvertBinaryTreeIteratively">
+    <configuration name="InvertBinaryTreeTest.shouldInvertBinaryTreeIteratively" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":src:main:trees:test" />
+            <option value="--tests" />
+            <option value="&quot;InvertBinaryTreeTest.shouldInvertBinaryTreeIteratively&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="InvertBinaryTreeTest.t1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":src:main:trees:test" />
+            <option value="--tests" />
+            <option value="&quot;InvertBinaryTreeTest.t1&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="LongestCommonPrefixTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -194,57 +240,26 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="algorithms-and-datastructures [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Algorithms-and-data-structures" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="algorithms-and-datastructures [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Algorithms-and-data-structures" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.InvertBinaryTreeTest.shouldInvertBinaryTreeIteratively" />
+        <item itemvalue="Gradle.InvertBinaryTreeTest.t1" />
+        <item itemvalue="Gradle.algorithms-and-datastructures [build]" />
         <item itemvalue="Gradle.LongestCommonPrefixTest" />
         <item itemvalue="Gradle.LongestCommonPrefixTest.t1" />
-        <item itemvalue="Gradle.algorithms-and-datastructures [test]" />
-        <item itemvalue="Gradle.algorithms-and-datastructures [build]" />
-        <item itemvalue="Gradle.algorithms-and-datastructures [clean]" />
       </list>
     </recent_temporary>
   </component>
@@ -300,9 +315,14 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/arrays/src/main/java/LongestCommonPrefix.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="5" />
+          <url>file://$PROJECT_DIR$/src/main/trees/src/main/java/pl/siwinski/piotr/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/trees/src/test/java/InvertBinaryTreeTest.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
