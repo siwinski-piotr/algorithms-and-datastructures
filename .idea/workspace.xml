@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30787c34-2a39-4012-93f0-a9bb5187aa97" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/cses/src/IncreasingArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/cses/src/MissingNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/cses/src/Repetitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/cses/src/WeirdAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/trees/src/main/java/DiameterOfBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/trees/src/main/java/UniqueBinarySearchTrees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/trees/src/test/java/DiameterOfBinaryTreeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/trees/src/test/java/UniqueBinarySearchTreesTest.java" afterDir="false" />
+    <list default="true" id="30787c34-2a39-4012-93f0-a9bb5187aa97" name="Changes" comment="Add cses fi intro problems">
+      <change afterPath="$PROJECT_DIR$/src/main/backtracking/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/backtracking/src/main/java/Subsets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/cses/src/TwoSetsV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/cses/src/TwoSetsV2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +56,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -67,12 +64,12 @@
     &quot;assignee&quot;: &quot;siwinski-piotr&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/siwinski-piotr/algorithms-and-datastructures.git&quot;,
-    &quot;accountId&quot;: &quot;b20f312b-1f57-41db-aeb2-aee1d1316b20&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/siwinski-piotr/algorithms-and-datastructures.git",
+    "accountId": "036a6d7d-b77d-4466-876f-d4eccde46ee1"
   }
-}</component>
+}]]></component>
   <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="$USER_HOME$/.gradle/wrapper/dists/gradle-8.5-bin/5t9huq95ubn472n8rpzujfbqh/gradle-8.5" javaHome="$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-21.0.9/Contents/Home" gradleVersion="8.5" />
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
@@ -90,6 +87,9 @@
     "Application.IncreasingArray.executor": "Run",
     "Application.MissingNumber.executor": "Run",
     "Application.Repetitions.executor": "Run",
+    "Application.TwoSets.executor": "Debug",
+    "Application.TwoSetsV1.executor": "Run",
+    "Application.TwoSetsV2.executor": "Run",
     "Application.WeirdAlgorithm.executor": "Run",
     "Gradle.InvertBinaryTreeTest.executor": "Run",
     "Gradle.InvertBinaryTreeTest.shouldInvertBinaryTreeIteratively.executor": "Debug",
@@ -113,7 +113,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/Users/piotrek/IdeaProjects/algorithms-and-datastructures/src/main/cses/src/Main.java",
+    "onboarding.tips.debug.path": "/Users/piotrek/IdeaProjects/algorithms-and-datastructures/src/main/backtracking/src/main/java/pl/siwinski/piotr/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -130,8 +130,11 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.IncreasingArray">
+  <component name="RunManager" selected="Application.TwoSetsV2">
     <configuration name="IncreasingArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IncreasingArray" />
       <module name="cses" />
@@ -153,36 +156,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeirdAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WeirdAlgorithm" />
+    <configuration name="TwoSetsV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TwoSetsV1" />
       <module name="cses" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniqueBinarySearchTreesTest.t2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":src:main:trees:test" />
-            <option value="--tests" />
-            <option value="&quot;UniqueBinarySearchTreesTest.t2&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
+    <configuration name="TwoSetsV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TwoSetsV2" />
+      <module name="cses" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Algorithms-and-data-structures" />
@@ -199,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwoSetsV2" />
+        <item itemvalue="Application.TwoSetsV1" />
         <item itemvalue="Application.IncreasingArray" />
         <item itemvalue="Application.Repetitions" />
         <item itemvalue="Application.MissingNumber" />
-        <item itemvalue="Application.WeirdAlgorithm" />
-        <item itemvalue="Gradle.UniqueBinarySearchTreesTest.t2" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +234,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762605864955</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add cses fi intro problems">
+      <option name="closed" value="true" />
+      <created>1762680048811</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1762680048811</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -256,7 +250,8 @@
     <MESSAGE value="Add codeforces ProductOfThreeNumbers task" />
     <MESSAGE value="Add Trees module and Invert binary tree task" />
     <MESSAGE value="Ignore build catalog in modules" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ignore build catalog in modules" />
+    <MESSAGE value="Add cses fi intro problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add cses fi intro problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -300,6 +295,11 @@
           <url>file://$PROJECT_DIR$/src/main/cses/src/IncreasingArray.java</url>
           <line>22</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/backtracking/src/main/java/pl/siwinski/piotr/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

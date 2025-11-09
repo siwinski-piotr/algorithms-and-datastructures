@@ -5,3 +5,5 @@ include("src:main:arrays")
 findProject(":src:main:arrays")?.name = "arrays"
 include("src:main:trees")
 findProject(":src:main:trees")?.name = "trees"
+
+include("src:main:backtracking")
