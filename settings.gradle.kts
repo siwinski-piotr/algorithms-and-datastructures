@@ -7,3 +7,6 @@ include("src:main:trees")
 findProject(":src:main:trees")?.name = "trees"
 
 include("src:main:backtracking")
+
+include("src:main:designPatterns")
+findProject(":src:main:designPatterns")?.name = "designPatterns"

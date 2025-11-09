@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30787c34-2a39-4012-93f0-a9bb5187aa97" name="Changes" comment="Add cses fi intro problems">
-      <change afterPath="$PROJECT_DIR$/src/main/backtracking/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/backtracking/src/main/java/Subsets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/cses/src/TwoSetsV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/cses/src/TwoSetsV2.java" afterDir="false" />
+    <list default="true" id="30787c34-2a39-4012-93f0-a9bb5187aa97" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/designPatterns/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/designPatterns/src/main/java/solid/openClosed/OpenClosedDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/trees/src/main/java/DiameterOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/trees/src/main/java/DiameterOfBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/trees/src/test/java/DiameterOfBinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/trees/src/test/java/DiameterOfBinaryTreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +40,17 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Algorithms-and-data-structures" type="f1a62948:ProjectNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Algorithms-and-data-structures" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Algorithms-and-data-structures" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -64,20 +76,21 @@
     &quot;assignee&quot;: &quot;siwinski-piotr&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/siwinski-piotr/algorithms-and-datastructures.git",
-    "accountId": "036a6d7d-b77d-4466-876f-d4eccde46ee1"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/siwinski-piotr/algorithms-and-datastructures.git&quot;,
+    &quot;accountId&quot;: &quot;036a6d7d-b77d-4466-876f-d4eccde46ee1&quot;
   }
-}]]></component>
+}</component>
   <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="$USER_HOME$/.gradle/wrapper/dists/gradle-8.5-bin/5t9huq95ubn472n8rpzujfbqh/gradle-8.5" javaHome="$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-21.0.9/Contents/Home" gradleVersion="8.5" />
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="34bTpg0rnz4Au6oKeevT2svl6wW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -91,6 +104,7 @@
     "Application.TwoSetsV1.executor": "Run",
     "Application.TwoSetsV2.executor": "Run",
     "Application.WeirdAlgorithm.executor": "Run",
+    "Gradle.DiameterOfBinaryTreeTest.executor": "Run",
     "Gradle.InvertBinaryTreeTest.executor": "Run",
     "Gradle.InvertBinaryTreeTest.shouldInvertBinaryTreeIteratively.executor": "Debug",
     "Gradle.InvertBinaryTreeTest.t1.executor": "Debug",
@@ -106,6 +120,7 @@
     "Gradle.algorithms-and-datastructures [clean].executor": "Run",
     "Gradle.algorithms-and-datastructures [test].executor": "Run",
     "Gradle.algorithms-and-datastructures:src:main:numbers [:src:main:numbers:ProductOfThreeNumbers.main()].executor": "Run",
+    "Gradle.algorithms-and-datastructures:src:main:trees [:src:main:trees:DiameterOfBinaryTree.main()].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
@@ -113,11 +128,11 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/Users/piotrek/IdeaProjects/algorithms-and-datastructures/src/main/backtracking/src/main/java/pl/siwinski/piotr/Main.java",
-    "project.structure.last.edited": "Modules",
+    "onboarding.tips.debug.path": "C:/Users/Piotr Siwiński/IdeaProjects/algorithms-and-datastructures/src/main/designPatterns/src/main/java/pl/siwinski/piotr/Main.java",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.editor"
+    "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -134,31 +149,10 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TwoSetsV2">
-    <configuration name="IncreasingArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IncreasingArray" />
-      <module name="cses" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MissingNumber" />
-      <module name="cses" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Repetitions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Repetitions" />
-      <module name="cses" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwoSetsV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TwoSetsV1" />
-      <module name="cses" />
+  <component name="RunManager" selected="Application.DiameterOfBinaryTree">
+    <configuration name="DiameterOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DiameterOfBinaryTree" />
+      <module name="Algorithms-and-data-structures.src.main.trees.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -169,6 +163,74 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="DiameterOfBinaryTreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":src:main:trees:test" />
+            <option value="--tests" />
+            <option value="&quot;DiameterOfBinaryTreeTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="algorithms-and-datastructures [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="algorithms-and-datastructures [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Algorithms-and-data-structures" />
@@ -185,11 +247,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.algorithms-and-datastructures [build]" />
+        <item itemvalue="Gradle.algorithms-and-datastructures [clean]" />
+        <item itemvalue="Gradle.DiameterOfBinaryTreeTest" />
+        <item itemvalue="Application.DiameterOfBinaryTree" />
         <item itemvalue="Application.TwoSetsV2" />
-        <item itemvalue="Application.TwoSetsV1" />
-        <item itemvalue="Application.IncreasingArray" />
-        <item itemvalue="Application.Repetitions" />
-        <item itemvalue="Application.MissingNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -300,6 +362,11 @@
           <url>file://$PROJECT_DIR$/src/main/backtracking/src/main/java/pl/siwinski/piotr/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/designPatterns/src/main/java/pl/siwinski/piotr/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
