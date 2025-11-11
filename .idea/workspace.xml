@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30787c34-2a39-4012-93f0-a9bb5187aa97" name="Changes" comment="Add missing build gradle files">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/arrays/src/main/java/ZigzagConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/arrays/src/main/java/ZigzagConversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cses/src/IncreasingArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/cses/src/main/java/IncreasingArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cses/src/MissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/cses/src/main/java/MissingNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cses/src/Repetitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/cses/src/main/java/Repetitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cses/src/TwoSetsV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/cses/src/main/java/TwoSetsV1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cses/src/TwoSetsV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/cses/src/main/java/TwoSetsV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cses/src/WeirdAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/cses/src/main/java/WeirdAlgorithm.java" afterDir="false" />
+    <list default="true" id="30787c34-2a39-4012-93f0-a9bb5187aa97" name="Changes" comment="Fix project">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,53 +88,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.IncreasingArray.executor": "Run",
-    "Application.MissingNumber.executor": "Run",
-    "Application.Repetitions.executor": "Run",
-    "Application.TwoSets.executor": "Debug",
-    "Application.TwoSetsV1.executor": "Run",
-    "Application.TwoSetsV2.executor": "Run",
-    "Application.WeirdAlgorithm.executor": "Run",
-    "Gradle.DiameterOfBinaryTreeTest.executor": "Run",
-    "Gradle.InvertBinaryTreeTest.executor": "Run",
-    "Gradle.InvertBinaryTreeTest.shouldInvertBinaryTreeIteratively.executor": "Debug",
-    "Gradle.InvertBinaryTreeTest.t1.executor": "Debug",
-    "Gradle.LongestCommonPrefixTest.executor": "Run",
-    "Gradle.LongestCommonPrefixTest.t1.executor": "Debug",
-    "Gradle.ProductOfThreeNumbersTest.executor": "Run",
-    "Gradle.ProductOfThreeNumbersTest.test1.executor": "Run",
-    "Gradle.UniqueBinarySearchTreesTest.executor": "Run",
-    "Gradle.UniqueBinarySearchTreesTest.t1.executor": "Run",
-    "Gradle.UniqueBinarySearchTreesTest.t2.executor": "Run",
-    "Gradle.algorithms-and-datastructures [:Main.main()].executor": "Run",
-    "Gradle.algorithms-and-datastructures [build].executor": "Run",
-    "Gradle.algorithms-and-datastructures [clean].executor": "Run",
-    "Gradle.algorithms-and-datastructures [test].executor": "Run",
-    "Gradle.algorithms-and-datastructures:src:main:cses [:src:main:cses:IncreasingArray.main()].executor": "Run",
-    "Gradle.algorithms-and-datastructures:src:main:numbers [:src:main:numbers:ProductOfThreeNumbers.main()].executor": "Run",
-    "Gradle.algorithms-and-datastructures:src:main:trees [:src:main:trees:DiameterOfBinaryTree.main()].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Piotrek/IdeaProjects/algorithms-and-datastructures/src/main/cses",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/Piotr Siwiński/IdeaProjects/algorithms-and-datastructures/src/main/object-oriented-design/unix-file-system/src/main/java/pl/siwinski/piotr/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "advanced.settings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.IncreasingArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MissingNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Repetitions.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TwoSets.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.TwoSetsV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TwoSetsV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WeirdAlgorithm.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DiameterOfBinaryTreeTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.InvertBinaryTreeTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.InvertBinaryTreeTest.shouldInvertBinaryTreeIteratively.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.InvertBinaryTreeTest.t1.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.LongestCommonPrefixTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LongestCommonPrefixTest.t1.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.ProductOfThreeNumbersTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ProductOfThreeNumbersTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UniqueBinarySearchTreesTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UniqueBinarySearchTreesTest.t1.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UniqueBinarySearchTreesTest.t2.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.algorithms-and-datastructures [:Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.algorithms-and-datastructures [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.algorithms-and-datastructures [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.algorithms-and-datastructures [test].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.algorithms-and-datastructures:src:main:cses [:src:main:cses:IncreasingArray.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.algorithms-and-datastructures:src:main:numbers [:src:main:numbers:ProductOfThreeNumbers.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.algorithms-and-datastructures:src:main:trees [:src:main:trees:DiameterOfBinaryTree.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Piotrek/IdeaProjects/algorithms-and-datastructures/src/main/cses&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Piotr Siwiński/IdeaProjects/algorithms-and-datastructures/src/main/object-oriented-design/unix-file-system/src/main/java/pl/siwinski/piotr/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Piotrek\IdeaProjects\algorithms-and-datastructures\src\main\cses" />
@@ -336,7 +326,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762863131570</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Fix project">
+      <option name="closed" value="true" />
+      <created>1762863490815</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1762863490815</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -347,7 +345,8 @@
     <MESSAGE value="Add cses fi intro problems" />
     <MESSAGE value="Add OpenClosed principle example" />
     <MESSAGE value="Add missing build gradle files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add missing build gradle files" />
+    <MESSAGE value="Fix project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
