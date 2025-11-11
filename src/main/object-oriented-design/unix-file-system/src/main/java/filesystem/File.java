@@ -1,3 +1,5 @@
+package filesystem;
+
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
@@ -28,4 +30,22 @@ public class File {
         return Collections.unmodifiableSet(entries);
     }
 
+    // Extracts the value of a specified file attribute
+    public Object extract(final FileAttribute attributeName) {
+        switch (attributeName) {
+            case SIZE -> {
+                return size;
+            }
+            case OWNER -> {
+                return owner;
+            }
+            case IS_DIRECTORY -> {
+                return isDirectory;
+            }
+            case FILENAME -> {
+                return fileName;
+            }
+        }
+        throw new IllegalArgumentException("invalid filter criteria type");
+    }
 }
