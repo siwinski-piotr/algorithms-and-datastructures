@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30787c34-2a39-4012-93f0-a9bb5187aa97" name="Changes" comment="Fix project">
+    <list default="true" id="30787c34-2a39-4012-93f0-a9bb5187aa97" name="Changes" comment="Ignore .idea files">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -334,7 +335,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762863490815</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Ignore .idea files">
+      <option name="closed" value="true" />
+      <created>1762863660968</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1762863660968</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -346,7 +355,8 @@
     <MESSAGE value="Add OpenClosed principle example" />
     <MESSAGE value="Add missing build gradle files" />
     <MESSAGE value="Fix project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix project" />
+    <MESSAGE value="Ignore .idea files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ignore .idea files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
