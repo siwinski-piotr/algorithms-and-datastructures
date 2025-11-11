@@ -15,6 +15,8 @@
             <option value="$PROJECT_DIR$/src/main/backtracking" />
             <option value="$PROJECT_DIR$/src/main/designPatterns" />
             <option value="$PROJECT_DIR$/src/main/numbers" />
+            <option value="$PROJECT_DIR$/src/main/object-oriented-design" />
+            <option value="$PROJECT_DIR$/src/main/object-oriented-design/unix-file-system" />
             <option value="$PROJECT_DIR$/src/main/trees" />
           </set>
         </option>
