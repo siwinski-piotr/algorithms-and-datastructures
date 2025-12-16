@@ -30,3 +30,4 @@ findProject(":src:main:object-oriented-design:unix-file-system")?.name = "unix-f
 include("src:main:cses")
 findProject(":src:main:cses")?.name = "cses"
 include("src:main:object-oriented-design:parking-lot")
+include("src:main:bits-integers-primitive-types")
